@@ -141,7 +141,7 @@ const photosInfo = [
         joinedOn: '04.12.2017'
     },
     {
-        firstName: ' Tareq',
+        firstName: 'Tareq',
         lastName: 'Mahmud',
         title: 'Aspiring full stack developer',
         nationality: 'Bangladeshi',
