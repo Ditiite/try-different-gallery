@@ -70,7 +70,6 @@ class InfoSlider {
                     </p>
                     <ul class="skills-list left">
                         <li>${person.skills}</li>
-                        <li>1</li>
                     </ul>
 
                     <p class="right">Why Softwear Developer:</p>
