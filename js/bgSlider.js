@@ -30,7 +30,6 @@ const countries = [
     "images/countries/serbia.jpg",
     "images/countries/serbia1.jpg",
     "images/countries/nepal.jpg",
-    "images/countries/nepal1.jpg",
     "images/countries/nepal2.jpg",
     "images/countries/slovakia.jpg",
     "images/countries/somalia.jpg",

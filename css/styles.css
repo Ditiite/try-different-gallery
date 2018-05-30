@@ -40,6 +40,7 @@ MAIN IMAGE
     transform-style: preserve-3d;
     animation: fade-slide-down 2s .5s cubic-bezier(.11, .16, .36, .98) forwards;
     position: absolute;
+    overflow: hidden;
 }
 
 .main-title {
@@ -86,6 +87,7 @@ CONTAINER
 
 .persons-img {
     width: 100%;
+    min-height: 100%;
     object-fit: cover;
     object-position: center;
     z-index: 4;
@@ -104,8 +106,7 @@ CONTAINER
 
 /*======= BUTTONS ============*/
 .persons-img-buttons {
-    height: 70px;
-    margin-bottom: 20px;
+    align-items: center;
     position: absolute;
     bottom: 0;
     width: 100%;

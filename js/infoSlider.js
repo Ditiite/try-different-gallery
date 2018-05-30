@@ -93,8 +93,6 @@ class InfoSlider {
         element.innerHTML = html;
 
         return element;
-    }
-
-    
+    } 
 }
 
