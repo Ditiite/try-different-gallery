@@ -1,4 +1,6 @@
 // Background image slider
+
+
 const countries = [
     "images/countries/bangladesh.jpg",
     "images/countries/bangladesh1.jpg",

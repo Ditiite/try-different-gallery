@@ -4,6 +4,7 @@ class InfoSlider {
     
     constructor(containerEl, photoInfoCollection) {
         this.containerEl = containerEl;
+        // console.log(cont)
         this.photoInfoCollection = photoInfoCollection;
         this.personElements = [];
         
@@ -60,8 +61,8 @@ class InfoSlider {
             <div class="info-cont box">
                 <div class="persons-info-container">
 
-                    <p class="right">Title: </p>
-                    <p class="left">${person.title}</p>
+                    <p class="right">Title: ${person.title}</p>
+                    <p class="left"></p>
 
                     <p class="right">Nationality:</p>
                     <p class="left">${person.nationality}</p>
@@ -69,7 +70,7 @@ class InfoSlider {
                         <i class="fas fa-caret-down skills"></i>
                     </p>
                     <ul class="skills-list left">
-                        <li>${person.skills}</li>
+                        <li>${person.skills.reduce((a,b) => a + " | " + b)}</li>
                     </ul>
 
                     <p class="right">Why Softwear Developer:</p>
@@ -89,6 +90,7 @@ class InfoSlider {
                 </div>
             </div>
         `;
+        console.log(person.skills.reduce((a,b) => a + " | " + b));
 
         element.innerHTML = html;
 

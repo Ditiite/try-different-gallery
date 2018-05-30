@@ -307,7 +307,7 @@ const photosInfo = [
         nationality: 'Vietnam',
         src: 'Trung.jpg',
         alt: 'Really, no photo here!',
-        Skills: [''],
+        skills: [''],
         whySofterDeveloper: 'Why not ?!',
         longTermVision: 'Retired before 50 then work remotely and travel world',
         motivatesMe:
